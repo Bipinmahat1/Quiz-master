@@ -1,12 +1,51 @@
-# React + Vite
+# 🧠  Quiz Master
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive and responsive quiz application built using **React**, **HTML**, and **CSS**, allowing users to select a category and test their knowledge through multiple-choice questions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
+![Screen Shot 2025-06-29 at 10 51 12 PM](https://github.com/user-attachments/assets/c750cbbd-8767-4798-8a96-60460bfb88a7)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- Three quiz categories: Math, Science, and General Knowledge
+- 5 questions per quiz
+- Score tracking
+- Immediate feedback on answer selection
+- Retry option with fresh set of questions
+- Fully responsive modern UI using pure CSS (no Tailwind)
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (with Hooks)
+- **Vite** for fast development
+- **HTML5**
+- **CSS3** (custom-styled, no frameworks)
+- **JavaScript (ES6+)**
+
+---
+
+## 📂 Project Structure
+📁 src/
+└── App.jsx # Main quiz logic and UI
+└── main.jsx # Entry point
+└── index.css # Global styles (optional if inline)
+
+## how to run locally
+# 1. Clone the repo:
+   ```bash
+   git clone https://github.com/Bipinmahat1/quiz-master.git
+   cd quiz-master
+```
+### 2. Install dependencies and start
+```bash
+npm install
+npm run dev
+```
+### 3. visit: http://localhost:5173
