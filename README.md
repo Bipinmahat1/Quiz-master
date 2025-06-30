@@ -33,8 +33,11 @@ An interactive and responsive quiz application built using **React**, **HTML**, 
 
 ## 📂 Project Structure
 📁 src/
+
 └── App.jsx # Main quiz logic and UI
+
 └── main.jsx # Entry point
+
 └── index.css # Global styles (optional if inline)
 
 ## how to run locally
